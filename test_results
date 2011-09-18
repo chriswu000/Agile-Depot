@@ -1,0 +1,256 @@
+(in /home/chriswu/RailsAgile/depot)
+Loaded suite /home/chriswu/.rvm/gems/ruby-1.9.2-head@global/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+.......
+Finished in 0.155709 seconds.
+
+7 tests, 20 assertions, 0 failures, 0 errors, 0 skips
+
+Test run options: --seed 20526
+Loaded suite /home/chriswu/.rvm/gems/ruby-1.9.2-head@global/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+..E..E.........EE................F.....F
+Finished in 1.167906 seconds.
+
+  1) Error:
+test_should_get_edit(CartsControllerTest):
+ActionView::Template::Error: undefined method `title' for nil:NilClass
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/whiny_nil.rb:48:in `method_missing'
+    /home/chriswu/RailsAgile/depot/app/views/line_items/_line_item.html.erb:7:in `_app_views_line_items__line_item_html_erb__2237169774051293826_30094080_3877428295045193001'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:135:in `block in render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `block in instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:127:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:300:in `block in collection_with_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:297:in `each'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:297:in `collection_with_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:280:in `render_collection'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:255:in `block in render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `block in instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:253:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:378:in `_render_partial'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:31:in `render'
+    /home/chriswu/RailsAgile/depot/app/views/carts/_cart.html.erb:3:in `_app_views_carts__cart_html_erb___4515043408808295096_30301920__1326675202715706808'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:135:in `block in render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `block in instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:127:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:333:in `render_partial'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:262:in `block in render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `block in instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:260:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:378:in `_render_partial'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:31:in `render'
+    /home/chriswu/RailsAgile/depot/app/views/layouts/application.html.erb:19:in `block in _app_views_layouts_application_html_erb___2016690966102840290_29411760__4557214386547902354'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/helpers/capture_helper.rb:40:in `block in capture'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/helpers/capture_helper.rb:172:in `with_output_buffer'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/helpers/capture_helper.rb:40:in `capture'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/helpers/tag_helper.rb:77:in `content_tag'
+    /home/chriswu/RailsAgile/depot/app/helpers/application_helper.rb:6:in `hidden_div_if'
+    /home/chriswu/RailsAgile/depot/app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb___2016690966102840290_29411760__4557214386547902354'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:135:in `block in render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `block in instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:127:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/layouts.rb:80:in `_render_layout'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:62:in `block in _render_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `block in instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:56:in `_render_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:26:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:115:in `_render_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:93:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_controller/metal/rendering.rb:17:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+
+  2) Error:
+test_should_show_cart(CartsControllerTest):
+ActionView::Template::Error: undefined method `title' for nil:NilClass
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/whiny_nil.rb:48:in `method_missing'
+    /home/chriswu/RailsAgile/depot/app/views/line_items/_line_item.html.erb:7:in `_app_views_line_items__line_item_html_erb__2237169774051293826_30094080_3877428295045193001'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:135:in `block in render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `block in instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:127:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:300:in `block in collection_with_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:297:in `each'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:297:in `collection_with_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:280:in `render_collection'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:255:in `block in render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `block in instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:253:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:378:in `_render_partial'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:31:in `render'
+    /home/chriswu/RailsAgile/depot/app/views/carts/_cart.html.erb:3:in `_app_views_carts__cart_html_erb___4515043408808295096_30301920__1326675202715706808'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:135:in `block in render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `block in instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:127:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:333:in `render_partial'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:262:in `block in render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `block in instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:260:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:378:in `_render_partial'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:31:in `render'
+    /home/chriswu/RailsAgile/depot/app/views/carts/show.html.erb:1:in `_app_views_carts_show_html_erb__812164078334426427_31070240__4557214386547902354'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:135:in `block in render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `block in instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:127:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `block in instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:56:in `_render_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:26:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:115:in `_render_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:93:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_controller/metal/rendering.rb:17:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+
+  3) Error:
+test_order_received(NotifierTest):
+ActionView::Template::Error: undefined method `title' for nil:NilClass
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/whiny_nil.rb:48:in `method_missing'
+    /home/chriswu/RailsAgile/depot/app/views/line_items/_line_item.text.erb:3:in `_app_views_line_items__line_item_text_erb___3106337368692398599_34017920_3877428295045193001'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:135:in `block in render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:54:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:127:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:300:in `block in collection_with_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:297:in `each'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:297:in `collection_with_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:280:in `render_collection'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:255:in `block in render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `block in instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:253:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:378:in `_render_partial'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:31:in `render'
+    /home/chriswu/RailsAgile/depot/app/views/notifier/order_received.text.erb:7:in `_app_views_notifier_order_received_text_erb__1437090364113773995_34673260__4557214386547902354'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:135:in `block in render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:54:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:127:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:54:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:56:in `_render_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:26:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:115:in `_render_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:93:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/deprecated_api.rb:111:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:735:in `block in collect_responses_and_parts_order'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:750:in `each'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:750:in `block in each_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:745:in `each'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:745:in `each_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:731:in `collect_responses_and_parts_order'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:673:in `mail'
+    /home/chriswu/RailsAgile/depot/app/mailers/notifier.rb:12:in `order_received'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/base.rb:150:in `process_action'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/base.rb:119:in `process'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:41:in `process'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/old_api.rb:75:in `process'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:471:in `process'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:466:in `initialize'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:450:in `new'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:450:in `method_missing'
+    test/functional/notifier_test.rb:5:in `block in <class:NotifierTest>'
+
+  4) Error:
+test_order_shipped(NotifierTest):
+ActionView::Template::Error: undefined method `title' for nil:NilClass
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/whiny_nil.rb:48:in `method_missing'
+    /home/chriswu/RailsAgile/depot/app/views/line_items/_line_item.html.erb:7:in `_app_views_line_items__line_item_html_erb__2237169774051293826_32025800_3877428295045193001'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:135:in `block in render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:54:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:127:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:300:in `block in collection_with_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:297:in `each'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:297:in `collection_with_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:280:in `render_collection'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:255:in `block in render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `block in instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:253:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/partials.rb:378:in `_render_partial'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:31:in `render'
+    /home/chriswu/RailsAgile/depot/app/views/notifier/order_shipped.html.erb:8:in `_app_views_notifier_order_shipped_html_erb__2775831136917391486_32084520__4557214386547902354'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:135:in `block in render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:54:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/template.rb:127:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/activesupport-3.0.9/lib/active_support/notifications.rb:54:in `instrument'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:56:in `_render_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:26:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:115:in `_render_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:93:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/deprecated_api.rb:111:in `render'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:735:in `block in collect_responses_and_parts_order'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:750:in `each'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:750:in `block in each_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:745:in `each'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:745:in `each_template'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:731:in `collect_responses_and_parts_order'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:673:in `mail'
+    /home/chriswu/RailsAgile/depot/app/mailers/notifier.rb:23:in `order_shipped'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/base.rb:150:in `process_action'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/base.rb:119:in `process'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:41:in `process'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/old_api.rb:75:in `process'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:471:in `process'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:466:in `initialize'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:450:in `new'
+    /home/chriswu/.rvm/gems/ruby-1.9.2-head@rails3tutorial/gems/actionmailer-3.0.9/lib/action_mailer/base.rb:450:in `method_missing'
+    test/functional/notifier_test.rb:13:in `block in <class:NotifierTest>'
+
+  5) Failure:
+test_should_create_user(UsersControllerTest) [test/functional/users_controller_test.rb:20]:
+"User.count" didn't change by 1.
+<3> expected but was
+<2>.
+
+  6) Failure:
+test_should_update_user(UsersControllerTest) [test/functional/users_controller_test.rb:39]:
+Expected response to be a <:redirect>, but was <200>
+
+40 tests, 58 assertions, 2 failures, 4 errors, 0 skips
+
+Test run options: --seed 11490
+Loaded suite /home/chriswu/.rvm/gems/ruby-1.9.2-head@global/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+.
+Finished in 0.772831 seconds.
+
+1 tests, 20 assertions, 0 failures, 0 errors, 0 skips
+
+Test run options: --seed 57990

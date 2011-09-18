@@ -1,4 +1,4 @@
-page.select_("#notice").each { |notice| notice.hide }
+page.select("#notice").each { |notice| notice.hide }
 
 page.replace_html('cart', render(@cart))
 page[:cart].visual_effect :blind_down if @cart.total_items == 1
